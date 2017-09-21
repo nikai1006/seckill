@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="389.62499999999994" y="0.0">org.seckill.entity.Seckill</node>
+    <node x="699.6737499999999" y="92.0">org.seckill.dao.SeckillDao</node>
+    <node x="494.3612499999998" y="174.0">org.seckill.dao.SuccessKilledDao</node>
+    <node x="77.26124999999985" y="368.0">org.seckill.web.SeckillController</node>
+    <node x="171.71801587301564" y="174.0">org.seckill.dto.SeckillExecution</node>
+    <node x="174.49999999999994" y="266.0">org.seckill.service.SeckillService</node>
+    <node x="369.3612499999998" y="368.0">org.seckill.service.impl.SeckillServiceImpl</node>
+    <node x="366.62499999999994" y="92.0">org.seckill.entity.SuccessKilled</node>
+    <node x="374.3612499999998" y="174.0">org.seckill.dto.Exposer</node>
+    <node x="21.5" y="266.0">org.seckill.dto.SeckillResult</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.seckill.web.SeckillController" target="org.seckill.service.SeckillService">
+      <point x="45.14285714285717" y="-16.0" />
+      <point x="201.40410714285701" y="348.0" />
+      <point x="208.99999999999994" y="348.0" />
+      <point x="-34.5" y="16.0" />
+    </edge>
+    <edge source="org.seckill.web.SeckillController" target="org.seckill.dto.SeckillExecution">
+      <point x="-45.14285714285711" y="-16.0" />
+      <point x="111.11839285714274" y="338.0" />
+      <point x="11.0" y="338.0" />
+      <point x="11.0" y="236.0" />
+      <point x="187.41801587301563" y="236.0" />
+      <point x="-62.80000000000001" y="16.0" />
+    </edge>
+    <edge source="org.seckill.dao.SuccessKilledDao" target="org.seckill.entity.SuccessKilled">
+      <point x="0.0" y="-16.0" />
+      <point x="576.8612499999998" y="154.0" />
+      <point x="452.24999999999994" y="154.0" />
+      <point x="17.125" y="16.0" />
+    </edge>
+    <edge source="org.seckill.service.impl.SeckillServiceImpl" target="org.seckill.dao.SeckillDao">
+      <point x="74.66666666666669" y="-16.0" />
+      <point x="528.0279166666666" y="348.0" />
+      <point x="759.1737499999999" y="348.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.seckill.web.SeckillController" target="org.seckill.dto.SeckillResult">
+      <point x="-22.571428571428555" y="-16.0" />
+      <point x="133.6898214285713" y="328.0" />
+      <point x="54.5" y="328.0" />
+      <point x="-33.0" y="16.0" />
+    </edge>
+    <edge source="org.seckill.entity.SuccessKilled" target="org.seckill.entity.Seckill">
+      <point x="-34.25" y="-16.0" />
+      <point x="400.87499999999994" y="72.0" />
+      <point x="427.54166666666663" y="72.0" />
+      <point x="-7.583333333333314" y="16.0" />
+    </edge>
+    <edge source="org.seckill.web.SeckillController" target="org.seckill.dto.Exposer">
+      <point x="67.71428571428572" y="-16.0" />
+      <point x="223.97553571428557" y="348.0" />
+      <point x="400.5587103174602" y="348.0" />
+      <point x="400.5587103174602" y="246.0" />
+      <point x="411.8612499999998" y="246.0" />
+      <point x="-12.5" y="16.0" />
+    </edge>
+    <edge source="org.seckill.web.SeckillController" target="org.seckill.entity.Seckill">
+      <point x="-67.71428571428567" y="-16.0" />
+      <point x="88.54696428571418" y="348.0" />
+      <point x="0.0" y="348.0" />
+      <point x="0.0" y="52.0" />
+      <point x="397.20833333333326" y="52.0" />
+      <point x="-37.916666666666686" y="16.0" />
+    </edge>
+    <edge source="org.seckill.service.impl.SeckillServiceImpl" target="org.seckill.dto.Exposer">
+      <point x="-18.666666666666686" y="-16.0" />
+      <point x="434.6945833333332" y="348.0" />
+      <point x="442.3612499999998" y="348.0" />
+      <point x="442.3612499999998" y="246.0" />
+      <point x="436.8612499999998" y="246.0" />
+      <point x="12.5" y="16.0" />
+    </edge>
+    <edge source="org.seckill.dto.SeckillExecution" target="org.seckill.entity.SuccessKilled">
+      <point x="-39.25" y="-16.0" />
+      <point x="210.96801587301564" y="144.0" />
+      <point x="383.74999999999994" y="144.0" />
+      <point x="-51.375" y="16.0" />
+    </edge>
+    <edge source="org.seckill.service.impl.SeckillServiceImpl" target="org.seckill.entity.Seckill">
+      <point x="56.0" y="-16.0" />
+      <point x="509.3612499999998" y="338.0" />
+      <point x="689.1737499999999" y="338.0" />
+      <point x="689.1737499999999" y="62.0" />
+      <point x="457.87499999999994" y="62.0" />
+      <point x="22.75" y="16.0" />
+    </edge>
+    <edge source="org.seckill.dao.SeckillDao" target="org.seckill.entity.Seckill">
+      <point x="0.0" y="-16.0" />
+      <point x="759.1737499999999" y="52.0" />
+      <point x="473.0416666666666" y="52.0" />
+      <point x="37.91666666666663" y="16.0" />
+    </edge>
+    <edge source="org.seckill.service.impl.SeckillServiceImpl" target="org.seckill.dto.SeckillExecution">
+      <point x="-37.33333333333337" y="-16.0" />
+      <point x="416.02791666666644" y="348.0" />
+      <point x="411.5587103174602" y="348.0" />
+      <point x="411.5587103174602" y="226.0" />
+      <point x="313.01801587301566" y="226.0" />
+      <point x="62.80000000000001" y="16.0" />
+    </edge>
+    <edge source="org.seckill.service.impl.SeckillServiceImpl" target="org.seckill.service.SeckillService">
+      <point x="-74.66666666666669" y="-16.0" />
+      <point x="378.6945833333332" y="338.0" />
+      <point x="277.99999999999994" y="338.0" />
+      <point x="34.5" y="16.0" />
+    </edge>
+    <edge source="org.seckill.service.SeckillService" target="org.seckill.entity.Seckill">
+      <point x="-46.0" y="-16.0" />
+      <point x="197.49999999999994" y="226.0" />
+      <point x="161.21801587301564" y="226.0" />
+      <point x="161.21801587301564" y="62.0" />
+      <point x="412.37499999999994" y="62.0" />
+      <point x="-22.75" y="16.0" />
+    </edge>
+    <edge source="org.seckill.service.SeckillService" target="org.seckill.dto.Exposer">
+      <point x="46.0" y="-16.0" />
+      <point x="289.49999999999994" y="246.0" />
+      <point x="386.8612499999998" y="246.0" />
+      <point x="-37.5" y="16.0" />
+    </edge>
+    <edge source="org.seckill.service.SeckillService" target="org.seckill.dto.SeckillExecution">
+      <point x="0.0" y="-16.0" />
+      <point x="243.49999999999994" y="246.0" />
+      <point x="250.21801587301564" y="246.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.seckill.service.impl.SeckillServiceImpl" target="org.seckill.dao.SuccessKilledDao">
+      <point x="18.66666666666663" y="-16.0" />
+      <point x="472.02791666666644" y="318.0" />
+      <point x="576.8612499999998" y="318.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.seckill.service.impl.SeckillServiceImpl" target="org.seckill.entity.SuccessKilled">
+      <point x="37.333333333333314" y="-16.0" />
+      <point x="490.6945833333332" y="328.0" />
+      <point x="669.8612499999999" y="328.0" />
+      <point x="669.8612499999999" y="144.0" />
+      <point x="486.49999999999994" y="144.0" />
+      <point x="51.375" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="54.0" y="396.4444444444445" />
+  <SelectedNodes>
+    <node>org.seckill.dao.SeckillDao</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
